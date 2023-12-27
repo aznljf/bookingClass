@@ -1,6 +1,6 @@
 
 
-name: Build and deploy PHP app to Azure Web App - creativeminds
+name: Build and deploy Laravel to Azure Web App - creativeminds
 
 on:
   push:
