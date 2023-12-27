@@ -34,8 +34,9 @@ class CategoryController extends Controller
       $image = $request->file('image')->store('public/categories');
 
       Category::create([
-        'name' => $request->name,
-        'desc' => $request->desc,
+        'className' => $request->name,
+        'description' => $request->desc,
+        'price' => $request->price,
         'image' => $image
       ]);
 
