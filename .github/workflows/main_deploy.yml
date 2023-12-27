@@ -1,5 +1,3 @@
-
-
 name: Build and deploy Laravel to Azure Web App - creativeminds
 
 on:
